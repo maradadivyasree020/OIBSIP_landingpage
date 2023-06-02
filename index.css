@@ -4,6 +4,7 @@
  
 .left{  
     /* color: aliceblue; */
+    /* padding-top: 60px; */
     font-family: cursive;
     float:left;
 }
@@ -30,11 +31,21 @@
     text-decoration: none;
 }
 
+#home{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.padd{
+    padding-top: 150px;
+}
+
 .home{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .home h1{
@@ -54,7 +65,8 @@
 }
 
 #about{
-    padding: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #about p{
@@ -73,7 +85,13 @@
 }
 
 #contact h3,#contact h2{
+    padding-left: 40px;
     font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+}
+
+#buy{
+    padding-top:40px;
+    padding-bottom: 125px;
 }
